@@ -1,0 +1,10 @@
+[package]
+name = "wari"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wasmtime = { version = "29.0.1", features = ["runtime"] }
+anyhow = "1.0.95"
+tracing = "0.1.41"
+tracing-subscriber = "0.3.19"
